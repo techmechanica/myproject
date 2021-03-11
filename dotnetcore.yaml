@@ -7,7 +7,9 @@
     - master
      
     pool:
-      vmImage: 'windows-latest'
+      name: 'Default'
+      vmImage: 'devopsserver'
+
      
     variables:
       solution: '**/*.sln'
