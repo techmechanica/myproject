@@ -1,6 +1,0 @@
-    pool:
-      name: 'Default'
-      vmImage: 'devopsserver'
-     
-    steps:
-    - bash: echo "Our First Pipeline"
