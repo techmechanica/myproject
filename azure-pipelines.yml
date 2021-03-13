@@ -20,6 +20,3 @@ steps:
    versionSpec: 'v5.8.1 '
    checkLatest: True
 
-- task: NuGetCommand@2
-  inputs:
-    restoreSolution: '**/*.sln'
